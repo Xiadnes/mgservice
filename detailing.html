@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MG Service — Детейлінг</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="images/logo.png" alt="MG Service Logo" />
+        <span class="header__title">MG Service</span>
+      </div>
+      <nav>
+        <div class="menu-toggle" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </div>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="carwash.html">Автомийка</a></li>
+          <li><a href="detailing.html" class="active">Детейлінг</a></li>
+          <li><a href="cafe.html">Кав'ярня</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="carousel" id="carousel-detailing">
+      <img src="images/detailing1.jpg" class="carousel-slide" style="opacity:1" alt="Detailing photo 1">
+      <img src="images/detailing2.jpg" class="carousel-slide" style="opacity:0" alt="Detailing photo 2">
+      <img src="images/detailing3.jpg" class="carousel-slide" style="opacity:0" alt="Detailing photo 3">
+      <div class="carousel-controls">
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+      </div>
+      <div class="carousel-dots">
+        <button class="carousel-dot active"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+      </div>
+    </div>
+    <section class="card">
+      <h1 class="section-title">Детейлінг</h1>
+      <hr class="section-hr" />
+      <p>
+        Детейлінг — це преміальний догляд, захист та реставрація вашого автомобіля.  
+        Ми пропонуємо полірування, нанесення керамічних покриттів, захист салону та кузова, професійну хімчистку і багато іншого.  
+        Ваша машина виглядатиме як з салону!
+      </p>
+    </section>
+    <section class="card">
+      <h2 class="section-title" style="font-size:1.3rem;">Послуги та ціни</h2>
+      <div class="table-responsive">
+        <table class="table-services">
+          <thead>
+            <tr>
+              <th>Послуга</th>
+              <th>Легковий</th>
+              <th>Кросовер</th>
+              <th>Позашляховик</th>
+              <th>Мікроавтобус</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Полірування кузова</td>
+              <td>3500 ₴</td>
+              <td>4000 ₴</td>
+              <td>4500 ₴</td>
+              <td>5000 ₴</td>
+            </tr>
+            <tr>
+              <td>Керамічне покриття</td>
+              <td>4000 ₴</td>
+              <td>4500 ₴</td>
+              <td>5000 ₴</td>
+              <td>5500 ₴</td>
+            </tr>
+            <tr>
+              <td>Захист шкіри салону</td>
+              <td>1700 ₴</td>
+              <td>1900 ₴</td>
+              <td>2100 ₴</td>
+              <td>2300 ₴</td>
+            </tr>
+            <tr>
+              <td>Хімчистка преміум</td>
+              <td>2000 ₴</td>
+              <td>2200 ₴</td>
+              <td>2400 ₴</td>
+              <td>2600 ₴</td>
+            </tr>
+            <!-- додайте більше послуг за потреби -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <div class="gallery">
+      <img src="images/detailing_gallery1.jpg" alt="Detailing Gallery 1">
+      <img src="images/detailing_gallery2.jpg" alt="Detailing Gallery 2">
+      <img src="images/detailing_gallery3.jpg" alt="Detailing Gallery 3">
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 MG Service. Всі права захищено.
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

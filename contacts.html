@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MG Service — Контакти</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="images/logo.png" alt="MG Service Logo" />
+        <span class="header__title">MG Service</span>
+      </div>
+      <nav>
+        <div class="menu-toggle" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </div>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="carwash.html">Автомийка</a></li>
+          <li><a href="detailing.html">Детейлінг</a></li>
+          <li><a href="cafe.html">Кав'ярня</a></li>
+          <li><a href="contacts.html" class="active">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="carousel" id="carousel-contacts">
+      <img src="images/contact1.jpg" class="carousel-slide" style="opacity:1" alt="Contacts photo 1">
+      <img src="images/contact2.jpg" class="carousel-slide" style="opacity:0" alt="Contacts photo 2">
+      <img src="images/contact3.jpg" class="carousel-slide" style="opacity:0" alt="Contacts photo 3">
+      <div class="carousel-controls">
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+      </div>
+      <div class="carousel-dots">
+        <button class="carousel-dot active"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+      </div>
+    </div>
+    <section class="card text-center">
+      <h1 class="section-title">Наші контакти</h1>
+      <hr class="section-hr" />
+      <div class="contacts-info">
+        <b>Адреса:</b> Україна, село Гора Велиця, вул. Центральна 20в<br>
+        <b>Телефон:</b> +38 (099) 123-45-67<br>
+        <b>Email:</b> info@mgservice.ua
+      </div>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps?q=Гора+Велиця+Центральна+20в,+Україна&output=embed"
+          width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p>Чекаємо на вас щодня з 8:00 до 21:00!</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 MG Service. Всі права захищено.
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MG Service — Автомийка</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="images/logo.png" alt="MG Service Logo" />
+        <span class="header__title">MG Service</span>
+      </div>
+      <nav>
+        <div class="menu-toggle" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </div>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="carwash.html" class="active">Автомийка</a></li>
+          <li><a href="detailing.html">Детейлінг</a></li>
+          <li><a href="cafe.html">Кав'ярня</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div class="carousel" id="carousel-carwash">
+      <img src="images/carwash1.jpg" class="carousel-slide" style="opacity:1" alt="Carwash photo 1">
+      <img src="images/carwash2.jpg" class="carousel-slide" style="opacity:0" alt="Carwash photo 2">
+      <img src="images/carwash3.jpg" class="carousel-slide" style="opacity:0" alt="Carwash photo 3">
+      <div class="carousel-controls">
+        <button class="carousel-btn prev">&#8592;</button>
+        <button class="carousel-btn next">&#8594;</button>
+      </div>
+      <div class="carousel-dots">
+        <button class="carousel-dot active"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+      </div>
+    </div>
+    <section class="card">
+      <h1 class="section-title">Преміум-Автомийка</h1>
+      <hr class="section-hr" />
+      <p>
+        Ми пропонуємо найкращі послуги з миття авто будь-якого класу.  
+        Використовуємо лише сертифіковані матеріали, делікатні мийні засоби і турбуємось про кожну деталь вашого авто.  
+        Ваш автомобіль буде сяяти чистотою і доглянутістю!
+      </p>
+    </section>
+    <section class="card">
+      <h2 class="section-title" style="font-size:1.3rem;">Наші послуги та ціни</h2>
+      <div class="table-responsive">
+        <table class="table-services">
+          <thead>
+            <tr>
+              <th>Послуга</th>
+              <th>Легковий</th>
+              <th>Кросовер</th>
+              <th>Позашляховик</th>
+              <th>Мікроавтобус</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Мийка кузова</td>
+              <td>200 ₴</td>
+              <td>250 ₴</td>
+              <td>300 ₴</td>
+              <td>350 ₴</td>
+            </tr>
+            <tr>
+              <td>Комплекс (кузов+салон)</td>
+              <td>350 ₴</td>
+              <td>400 ₴</td>
+              <td>450 ₴</td>
+              <td>500 ₴</td>
+            </tr>
+            <tr>
+              <td>Хімчистка салону</td>
+              <td>1300 ₴</td>
+              <td>1500 ₴</td>
+              <td>1700 ₴</td>
+              <td>1900 ₴</td>
+            </tr>
+            <tr>
+              <td>Мийка двигуна</td>
+              <td>250 ₴</td>
+              <td>300 ₴</td>
+              <td>350 ₴</td>
+              <td>400 ₴</td>
+            </tr>
+            <!-- додайте більше послуг за потреби -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <div class="gallery">
+      <img src="images/carwash_gallery1.jpg" alt="Carwash Gallery 1">
+      <img src="images/carwash_gallery2.jpg" alt="Carwash Gallery 2">
+      <img src="images/carwash_gallery3.jpg" alt="Carwash Gallery 3">
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 MG Service. Всі права захищено.
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
